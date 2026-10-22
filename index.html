@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>URL Extractor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>استخراج URL از متن</h1>
+
+      <textarea id="inputText" placeholder="متن خود را اینجا وارد کنید...">نمونه:
+https://example.com
+http://test.ir
+www.github.com
+</textarea>
+
+      <div class="actions">
+        <button id="extractBtn">استخراج URL</button>
+        <button id="copyBtn" class="secondary" type="button">کپی نتیجه</button>
+      </div>
+
+      <div id="result" class="result-box empty">
+        نتیجه استخراج URL اینجا نمایش داده می‌شود.
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
